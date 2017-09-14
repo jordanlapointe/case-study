@@ -1,0 +1,24 @@
+.ItemPhotos-displayed-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ItemPhotos-thumbnails {
+  padding: 0;
+  text-align: center;
+}
+
+.ItemPhotos-thumbnail {
+  border: solid 1px transparent;
+  display: inline-block;
+}
+
+.ItemPhotos-thumbnail-image {
+  height: 75px;
+  width: 75px;
+}
+
+.ItemPhotos-thumbnail--selected {
+  border-color: #ccc;
+}

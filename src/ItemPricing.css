@@ -1,0 +1,39 @@
+.ItemPricing-action,
+.ItemPricing-secondary-action {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: .5em;
+  text-transform: uppercase;
+}
+
+.ItemPricing-action-container {
+  margin-top: 16px;
+}
+
+.ItemPricing-action {
+
+}
+
+.ItemPricing-action--primary {
+  background-color: #c00;
+}
+
+.ItemPricing-secondary-action-container {
+  margin-top: 12px;
+}
+
+.ItemPricing-secondary-action {
+  background-color: #ccc;
+  color: #333;
+  font-size: 12px;
+}
+
+.ItemPricing-price {
+  font-size: 32px;
+  font-weight: bold;
+}

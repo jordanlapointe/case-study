@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.split-layout {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.split-layout__half {
+  width: calc(50% - .5em)
+}
+
+.split-layout__third {
+  width: calc(33.333% - .5em)
+}
